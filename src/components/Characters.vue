@@ -1,7 +1,7 @@
 <template>
     <ul class="characters">
         <li v-for="character in characters"
-            v-bind:class="{character: true, selected: character === selected }"
+            v-bind:class="{character: true, selected: character === selected}"
             v-bind:key="character.name"
             v-on:click="onSelect(character)">
             <img v-bind:src="character.img">
@@ -32,14 +32,15 @@ export default {
     position: relative;
     width: 200px;
     height: 300px;
-    border: 1px solid #aaa;
+    border: 5px solid rgb(102, 47, 2);
+    border-radius: 5px;
     text-align: center;
-    margin-right: 3px;
+    margin-right: 50px;
     cursor: pointer;
 }
 
 .character.selected {
-    background: red;
+    background: lightgrey;
 }
 
 .character h3 {

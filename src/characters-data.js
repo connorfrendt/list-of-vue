@@ -10,7 +10,7 @@ const characters = [
         role: 'Lich King',
     },
     {
-        name: 'Illidan Stormrage',
+        name: 'Illidan',
         img: 'https://d1u5p3l4wpay3k.cloudfront.net/wowpedia/thumb/e/e0/Illidan_the_Betrayer.jpg/200px-Illidan_the_Betrayer.jpg?version=a2d530b4afa9464540109ae576b8801e',
         role: 'Betrayer',
     }
