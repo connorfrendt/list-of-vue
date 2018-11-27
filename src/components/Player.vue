@@ -3,9 +3,9 @@
         <div v-if="character">
             <h2>{{character.name}}</h2>
             <p>{{character.name}} the {{character.role}}</p>
-            <img v-bind:src="character.img" style="height: 500px">
+            <img id="imgtag" v-bind:src="character.img" style="height: 500px">
         </div>
-        <div v-else><u>Please choose a character for your player</u></div>
+        <div id="ptag" v-else><u>Please choose a character for your player</u></div>
     </section>
 </template>
 
@@ -18,7 +18,26 @@ export default {
 </script>
 
 <style>
-img {
-    height: 500px;
+h2 {
+    background-color: rgb(80, 80, 80);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+p {
+    background: rgb(56, 56, 56);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#ptag {
+    color: white;
+}
+
+#imgtag {
+    border: 20px solid lightgray;
+    border-radius: 5px;
 }
 </style>
