@@ -4,7 +4,7 @@
             v-bind:class="{character: true, selected: character === selected }"
             v-bind:key="character.name"
             v-on:click="onSelect(character)">
-            <img v-bind:src="character.image">
+            <img v-bind:src="character.img">
             <h3>{{character.name}} the {{character.role}}</h3>
         </li>
     </ul>
@@ -24,6 +24,7 @@ export default {
 .characters {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center
 }
 
 .character {
