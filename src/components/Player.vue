@@ -3,7 +3,7 @@
         <div v-if="character">
             <h2>{{character.name}}</h2>
             <p>{{character.name}} the {{character.role}}</p>
-            <img v-bind:src="character.image">
+            <img v-bind:src="character.img" style="height: 500px">
         </div>
         <div v-else>Please choose a character for your player</div>
     </section>
@@ -18,5 +18,7 @@ export default {
 </script>
 
 <style>
-
+img {
+    height: 500px;
+}
 </style>

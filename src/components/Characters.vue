@@ -31,7 +31,7 @@ export default {
     list-style: none;
     position: relative;
     width: 200px;
-    height: 200px;
+    height: 300px;
     border: 1px solid #aaa;
     text-align: center;
     margin-right: 3px;
@@ -39,7 +39,7 @@ export default {
 }
 
 .character.selected {
-    background: pink;
+    background: red;
 }
 
 .character h3 {
