@@ -5,7 +5,7 @@
             <p>{{character.name}} the {{character.role}}</p>
             <img id="imgtag" v-bind:src="character.img" style="height: 500px">
         </div>
-        <div id="ptag" v-else><u>Please choose a character for your player</u></div>
+        <div id="ptag" v-else>Please choose a character for your player</div>
     </section>
 </template>
 
@@ -34,6 +34,8 @@ p {
 
 #ptag {
     color: white;
+    font-size: 2em;
+    border: 5px solid white;
 }
 
 #imgtag {

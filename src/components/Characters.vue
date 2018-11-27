@@ -49,6 +49,10 @@ ul {
     cursor: pointer;
 }
 
+.character:hover {
+    background: rgb(180, 180, 180);
+}
+
 .character.selected {
     background: rgb(116, 115, 115);
     border: 5px solid green;
