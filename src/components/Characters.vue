@@ -50,7 +50,7 @@ ul {
 }
 
 .character:hover {
-    background: rgb(180, 180, 180);
+    background: -webkit-linear-gradient(bottom, rgba(61, 17, 17, 1), rgb(255, 0, 0, 1));
 }
 
 .character.selected {

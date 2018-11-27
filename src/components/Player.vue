@@ -39,7 +39,7 @@ p {
 }
 
 #imgtag {
-    border: 20px solid lightgray;
+    border: 10px solid lightgray;
     border-radius: 5px;
 }
 </style>
