@@ -5,15 +5,15 @@ const characters = [
         role: 'Fire Lord',
     },
     {
+        name: 'Illidan',
+        img: 'https://d1u5p3l4wpay3k.cloudfront.net/wowpedia/thumb/e/e0/Illidan_the_Betrayer.jpg/200px-Illidan_the_Betrayer.jpg?version=a2d530b4afa9464540109ae576b8801e',
+        role: 'Betrayer',
+    },
+    {
         name: 'Arthas',
         img: 'https://vignette.wikia.nocookie.net/wowwiki/images/e/e3/Lich_King_Glowei.jpg/revision/latest?cb=20100905062001',
         role: 'Lich King',
     },
-    {
-        name: 'Illidan',
-        img: 'https://d1u5p3l4wpay3k.cloudfront.net/wowpedia/thumb/e/e0/Illidan_the_Betrayer.jpg/200px-Illidan_the_Betrayer.jpg?version=a2d530b4afa9464540109ae576b8801e',
-        role: 'Betrayer',
-    }
 ];
 
 export default characters;

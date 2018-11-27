@@ -50,8 +50,9 @@ ul {
 }
 
 .character.selected {
-    background: lightgrey;
+    background: rgb(116, 115, 115);
     border: 5px solid green;
+    box-shadow: 5px 5px 5px darkgreen;
 }
 
 .character h3 {

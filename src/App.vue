@@ -27,7 +27,7 @@ export default {
     },
     methods: {
         handleSelect(character) {
-            this.selected = character;
+            this.selected = character === this.selected ? null : character;
         }
     }
 };
