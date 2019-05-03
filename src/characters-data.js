@@ -6,7 +6,7 @@ const characters = [
     },
     {
         name: 'Illidan',
-        img: 'https://d1u5p3l4wpay3k.cloudfront.net/wowpedia/thumb/e/e0/Illidan_the_Betrayer.jpg/200px-Illidan_the_Betrayer.jpg?version=a2d530b4afa9464540109ae576b8801e',
+        img: 'https://gamepedia.cursecdn.com/wowpedia/thumb/e/e0/Illidan_the_Betrayer.jpg/200px-Illidan_the_Betrayer.jpg?version=428519b3a21e1ee73573851ffc0c1c07',
         role: 'Betrayer',
     },
     {

@@ -3,7 +3,7 @@
         <div v-if="character">
             <h2>{{character.name}}</h2>
             <p>{{character.name}} the {{character.role}}</p>
-            <img id="imgtag" v-bind:src="character.img" style="height: 500px">
+            <img id="imgtag" v-bind:src="character.img" style="width: 500px">
         </div>
         <div id="ptag" v-else>Please choose a character for your player</div>
     </section>
